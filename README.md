@@ -1,17 +1,74 @@
-# React + Vite
+# 💰 Smart RD System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Recurring Deposit Management System** built with React and Vite. Smart RD System helps users manage, track, and plan their recurring deposit investments with a clean and intuitive interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 View and manage recurring deposit accounts
+- 💹 Track RD maturity amounts and interest
+- 👤 User-friendly dashboard for RD details
+- ⚡ Fast and responsive UI built with React + Vite
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology | Purpose |
+|------------|---------|
+| React 18 | Frontend UI |
+| Vite | Build tool & dev server |
+| JavaScript (JSX) | Component logic |
+| CSS | Styling |
+| ESLint | Code quality |
 
-## Expanding the ESLint configuration
+## 📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/harsh123650/SmartRDSystem.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# SmartRDSystem
+# Navigate to project directory
+cd SmartRDSystem
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🖥️ Usage
+
+After running `npm run dev`, open your browser and go to:
+http://localhost:5173
+
+## 📁 Project Structure
+SmartRDSystem/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── App.jsx          # Root component
+│   ├── Rduser.jsx       # RD User management component
+│   ├── Rduser.css       # Component styles
+│   └── main.jsx         # App entry point
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+## 🔧 Available Scripts
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+```
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by [Harshal](https://github.com/harsh123650)
